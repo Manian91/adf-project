@@ -1,0 +1,9 @@
+{
+	"name": "Practice-dev-12345",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e65b888e-0273-473d-885e-2a6aa7fce847",
+		"tenantId": "e6a6b635-2a50-46fb-b7f5-426a76909c67"
+	}
+}
