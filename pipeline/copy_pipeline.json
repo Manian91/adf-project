@@ -61,6 +61,17 @@
 				]
 			}
 		],
+		"parameters": {
+			"pp_filesystem": {
+				"type": "string"
+			},
+			"pp_filename": {
+				"type": "string"
+			},
+			"pp_directory": {
+				"type": "string"
+			}
+		},
 		"annotations": []
 	}
 }
