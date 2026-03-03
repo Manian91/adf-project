@@ -72,7 +72,7 @@
 		],
 		"variables": {
 			"file_name": {
-				"type": "String"
+				"type": "Array"
 			}
 		},
 		"annotations": []
