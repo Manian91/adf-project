@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": "SalesLTProduct_color.txt",
 				"folderPath": "input",
 				"fileSystem": "project"
 			},
