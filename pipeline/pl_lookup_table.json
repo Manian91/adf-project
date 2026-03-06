@@ -65,12 +65,18 @@
 										"value": "@item().src_cont",
 										"type": "Expression"
 									},
-									"pp_directory_in": "input",
-									"pp_filename": {
-										"value": "@item().name",
+									"pp_directory_in": {
+										"value": "@item().src_dir",
 										"type": "Expression"
 									},
-									"pp_directory_out": "output",
+									"pp_filename": {
+										"value": "@item().filename",
+										"type": "Expression"
+									},
+									"pp_directory_out": {
+										"value": "@item().tgt_dir",
+										"type": "Expression"
+									},
 									"pp_directory_arc": "archive"
 								}
 							}
