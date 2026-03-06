@@ -10,8 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "SalesLTProduct_color.txt",
-				"folderPath": "input",
+				"fileName": "productconfig.csv",
+				"folderPath": "sql_output",
 				"fileSystem": "project"
 			},
 			"columnDelimiter": ",",
