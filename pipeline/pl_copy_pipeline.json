@@ -233,6 +233,40 @@
 						"enablePartitionDiscovery": false
 					}
 				}
+			},
+			{
+				"name": "Notebook1",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/manide2026@hotmail.com/Project_Practice",
+					"baseParameters": {
+						"pp_filesystem": {
+							"value": "@pipeline().parameters.pp_filesystem",
+							"type": "Expression"
+						},
+						"pp_directory_in": {
+							"value": "@pipeline().parameters.pp_directory_in",
+							"type": "Expression"
+						},
+						"pp_filename": {
+							"value": "@pipeline().parameters.pp_filename",
+							"type": "Expression"
+						}
+					}
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks1",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"parameters": {
